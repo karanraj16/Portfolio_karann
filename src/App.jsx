@@ -29,7 +29,7 @@ function App() {
     {
       title: "Task Manager Web App",
       description: "Developed a full-stack MERN task management application with RESTful APIs, full CRUD operations, and persistent MongoDB storage with real-time UI updates.",
-      link: "https://task-manager-rhkhgf8w5-karan-e373.vercel.app/"
+      link: "https://task-manager-bice-zeta-11.vercel.app/register"
     },
     {
       title: "LinkedIn Profile Audit Tool",
@@ -203,7 +203,7 @@ function App() {
               <h3><FaGraduationCap style={{color: '#ec4899', marginRight: '10px'}}/> B.Sc. Computer Science</h3>
               <h4>St. Joseph's College of Arts & Science, Chennai</h4>
               <ul>
-                <li>Graduated with a CGPA of 7.7.</li>
+                <li>Graduated with a CGPA of 7.5 </li>
                 <li>Built a strong foundation in programming, database management, and web technologies.</li>
               </ul>
             </div>
