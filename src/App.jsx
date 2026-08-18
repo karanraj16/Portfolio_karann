@@ -29,7 +29,7 @@ function App() {
     {
       title: "Task Manager Web App",
       description: "Developed a full-stack MERN task management application with RESTful APIs, full CRUD operations, and persistent MongoDB storage with real-time UI updates.",
-      link: "https://task-manager-bice-zeta-11.vercel.app/register"
+      link: "https://task-manager-rhkhgf8w5-karan-e373.vercel.app/register"
     },
     {
       title: "LinkedIn Profile Audit Tool",
