@@ -358,3 +358,86 @@ nav {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); } 
 }
+
+
+@media screen and (max-width: 768px) {
+  /* 1. Fix the Navigation Bar */
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem 5%;
+    position: absolute;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+
+  /* 2. Fix the Hero Section (Stop the Squishing!) */
+  .hero {
+    flex-direction: column;
+    padding-top: 10rem;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero-desc {
+    margin: 1.5rem auto; /* Centers the paragraph */
+  }
+  .skill-pills, .action-group {
+    justify-content: center; /* Centers the buttons and skill tags */
+  }
+
+  /* 3. Fix the Profile Image */
+  .hero-image-container {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .profile-circle {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .floating-card {
+    display: none; /* Hides the floating code block on phones to save space */
+  }
+  .floating-stats {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: fit-content;
+    bottom: -15px;
+  }
+
+  /* 4. Fix the HR Snapshot Grid */
+  .hr-snapshot-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+  .hr-grid {
+    grid-template-columns: 1fr; /* Changes 2 columns into 1 column */
+    text-align: left;
+    margin: 0 auto 1.5rem auto;
+    max-width: fit-content;
+  }
+
+  /* 5. Fix Form & General Spacing */
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .contact-info-side {
+    text-align: center;
+  }
+  .icon-btn-group {
+    justify-content: center !important;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}
